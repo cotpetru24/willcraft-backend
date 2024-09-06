@@ -1,5 +1,5 @@
 import express from 'express';
-import {getAllReviews, getLast3Reviews, updateReview, createReview, deleteReview} from '../controllers/reviewController.js';
+import {getAllReviews, getLast3Reviews, updateReview, createReview, deleteReview} from '../controllers/reviewCOntroller.js';
 import { protect } from '../middleware/authMiddleware.js';
 
 
